@@ -17,14 +17,35 @@
 		<div>
 			<h1>Which stock(s) would you like to search for?</h1>
 
-			<form>
-				<input type="text" placeholder="Enter ticker(s), separated by commas">
+			<form id="stock-form">
+				<input id="ticker-text" type="text" placeholder="Enter ticker(s), separated by commas">
 
 				<button id="get-stocks" type="submit">Get my stock(s) quotes</button>
 			</form>
 
+			<!-- build table which will hold the info that you would like to show -->
+			<table>
+				<thead>
+					<tr>
+						<th>Stock Symbol</th>
+						<th>Company Name</th>
+						<th>Bid Price</th>	
+						<th>Ask Price</th>
+						<th>Daily Change</th>
+					</tr>
+				</thead>
+				<tbody id="stock-body">
+					<tr>				
+						<td>-</td>
+						<td>-</td>
+						<td>-</td>
+						<td>-</td>
+						<td>-</td>
+					</tr>	
+				</tbody>
 
-			
+			</table>
+
 		</div>
 			
 		

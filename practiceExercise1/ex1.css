@@ -1,0 +1,50 @@
+#ticker{
+	width: 380px;
+}
+
+.table{
+	margin-top: 30px;
+}
+
+#stock-body2{
+	margin-top: 30px;
+}
+
+/* style so that each piece of table data is exactly the same width */
+td{
+	width: 200px;
+}
+
+#pages{
+	width: 200vw;
+	/* makes this twice teh width of the viewport */
+}
+
+#page1, #page2{
+	width: 100vw;
+	height: 100vh;
+	float: left;
+	position: relative;
+	transition: all 3s;
+
+}
+
+body{
+	overflow: hidden;
+	/* hide everything outside of body  */
+}
+
+#arrow1, #arrow2{
+	position: absolute;
+	top: 50%;
+	background-color: blue;
+	color: white;
+}
+
+#arrow1{
+	right: 0px;
+}
+
+#arrow2{
+	left: 0px;
+}
