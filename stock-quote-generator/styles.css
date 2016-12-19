@@ -1,0 +1,20 @@
+html{
+	background-color: #717C89;
+}
+
+
+/* lets target the get stocks section */
+input{
+	width: 500px;
+	height: 20px;
+	border-radius: 5%;
+}
+
+#get-stocks{
+	padding-top: 4.7px;
+	padding-bottom: 5px;
+	background-color: #96031A;
+	margin-left: 20px;
+	color: black;
+	font-weight: bold;
+}
