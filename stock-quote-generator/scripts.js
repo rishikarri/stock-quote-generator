@@ -55,13 +55,17 @@ $(document).ready(function(){
 function buildStockRow(stock){
 	console.log("hi");
 
-	if(stock.Change.indexOf('+') > -1){
+	// If the market is actually open and there is a daily change
+	if(Math.abs(0 - stock.Change) > 0){
+		if(stock.Change.indexOf('+') > -1){
 			// there is a plus somewhere in this string if >-1
 			var classChange = "success";
 
 		}else{
 			var classChange = "failure";
-		}	
+		}		
+	}
+	
 
 
 	newHTML += "<tr>";
