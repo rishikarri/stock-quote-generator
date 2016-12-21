@@ -10,15 +10,7 @@ input{
 	border-radius: 5%;
 }
 
-#get-stocks{
-	padding-top: 4.7px;
-	border-radius: 5px;
-	padding-bottom: 5px;
-	background-color: #CCDAD1;
-	margin-left: 20px;
-	color: black;
-	font-weight: bold;
-}
+
 
 table{
 	margin-top: 40px;
@@ -46,3 +38,34 @@ td{
 .failure{
 	background-color: red;
 }
+
+/* BUTTON STYLING */
+
+button{
+	padding-top: 4.7px;
+	border-radius: 5px;
+	padding-bottom: 5px;
+	margin-left: 20px;
+	color: black;
+	font-weight: bold;
+}
+
+#get-stocks{
+	background-color: #5C6F68;
+}
+
+#save-stocks{
+	background-color: #805E73;	
+}
+
+#retrieve-stocks{
+	background-color: #BFB48F;		
+}
+
+#stock-form{
+	display: inline-block;	
+}
+
+/* 235789 */
+
+/* DAFF7D */
